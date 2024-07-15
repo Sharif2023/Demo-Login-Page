@@ -1,0 +1,127 @@
+/* General styles */
+body {
+    background: #f7f7f7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 0 15px;
+  }
+  
+  /* Panel styles */
+  .panel {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .panel-primary {
+    border-color: #ff6600;
+  }
+  
+  .panel-heading {
+    background: #ff6600;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .panel-body {
+    padding: 15px;
+  }
+  
+  .panel-footer {
+    background: #f7f7f7;
+    padding: 10px;
+    text-align: right;
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Form styles */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .radio-inline {
+    margin-right: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #ff6600;
+  }
+  
+  /* Toast styles */
+  .toast {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+  
+  .toast .toast-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .toast .toast-body {
+    margin-top: 10px;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animated {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+  
